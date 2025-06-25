@@ -1,0 +1,34 @@
+# 🏠 House Price Prediction
+
+This project builds a predictive model to estimate house prices using key features such as area, number of bedrooms and bathrooms, and location. It compares two machine learning algorithms to identify the most effective approach for housing market prediction.
+
+## ✅ Objective
+
+The main goal is to predict housing prices accurately and compare the performance of **Linear Regression** and **Gradient Boosting Regressor** models. The task demonstrates how different algorithms handle feature relationships in real estate data.
+
+## 🛠️ Tools & Technologies
+
+- **Python** – Programming language  
+- **Pandas & NumPy** – For data manipulation  
+- **Matplotlib & Seaborn** – Visualization libraries  
+- **Scikit-learn** – Model training and evaluation  
+- **Linear Regression** – Baseline model  
+- **Gradient Boosting Regressor** – Advanced ensemble model
+
+## 🧠 Methodology
+
+- **Data Preprocessing**: Loaded features (`Price`, `Area`, `Bedrooms`, `Bathrooms`, `Location`) and applied one-hot encoding to the `Location` variable.
+- **Train-Test Split**: Divided the data (80% train, 20% test).
+- **Scaling**: Standardized features for Linear Regression; skipped for Gradient Boosting.
+- **Model Training**: Trained both Linear Regression and Gradient Boosting Regressor.
+- **Evaluation**: Used MAE and RMSE; plotted actual vs predicted prices to visualize accuracy.
+
+## 📈 Results
+
+- **Linear Regression** performed moderately well with simple relationships.  
+- **Gradient Boosting** produced lower error scores and better aligned predictions.  
+- Visualizations showed more accurate predictions from Gradient Boosting.
+
+## 📌 Conclusion
+
+This project demonstrates how machine learning can be applied to predict house prices. While Linear Regression offers quick insights, Gradient Boosting provides better performance due to its ability to handle non-linear relationships. Future improvements could include more features and hyperparameter tuning.
